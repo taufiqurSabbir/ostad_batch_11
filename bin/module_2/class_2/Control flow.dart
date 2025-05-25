@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main() {
-  var amount = 500;
+  var amount = 100;
   var FriendAmount = 500;
   var friend = 'rahim';
 
@@ -32,7 +32,7 @@ main() {
     } else {
       print('akai bike');
     }
-  } else if (amount <= 200) {
+  } else if (amount >= 200) {
     print('bus');
   } else if (amount >= 100) {
     print('rskw');
